@@ -7185,7 +7185,7 @@
 							"visibility": "private"
 						}
 					],
-					"documentation": "##definition\nCe sont les produits produit et vendu par la ferme ou des produits provenant du fournisseurs.\nCes produits sont vendus à des clients ou des professionnels.\n",
+					"documentation": "##definition\ntous produits produit et vendu par la ferme ou des produits provenant du fournisseurs.\nCes produits sont vendus à des clients ou des professionnels.\n",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
