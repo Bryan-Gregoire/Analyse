@@ -203,7 +203,7 @@
 											"top": 322,
 											"width": 109.84619140625,
 											"height": 13,
-											"text": "-prix: int",
+											"text": "-prix: double",
 											"horizontalAlignment": 0
 										},
 										{
@@ -6552,7 +6552,7 @@
 							"name": "prix",
 							"documentation": "##definition\nprix du produit par unité de vente.",
 							"visibility": "private",
-							"type": "int"
+							"type": "double"
 						},
 						{
 							"_type": "UMLAttribute",
