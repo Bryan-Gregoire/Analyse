@@ -9945,7 +9945,7 @@
 											"top": 555.5,
 											"width": 161,
 											"height": 13,
-											"text": "UC 114- Gerer Paniers"
+											"text": "UC 114- Gerer Panier"
 										},
 										{
 											"_type": "LabelView",
@@ -15451,7 +15451,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF112DmHd1Bqks="
 					},
-					"name": "UC 114- Gerer Paniers",
+					"name": "UC 114- Gerer Panier",
 					"ownedElements": [
 						{
 							"_type": "UMLActivity",
