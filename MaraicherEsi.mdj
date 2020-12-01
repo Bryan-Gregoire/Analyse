@@ -8089,7 +8089,7 @@
 									"font": "Arial;13;0",
 									"left": 304.5,
 									"top": 268.5,
-									"width": 194.20263671875,
+									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF113KPAOFf8SI="
@@ -8557,7 +8557,7 @@
 									"font": "Arial;13;0",
 									"left": 862,
 									"top": 268.5,
-									"width": 220.919921875,
+									"width": 220,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF113Lr1+HWW1c="
@@ -9022,7 +9022,7 @@
 									"font": "Arial;13;0",
 									"left": 374,
 									"top": 372.5,
-									"width": 260.66259765625,
+									"width": 260,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF113h9heiGOAk="
@@ -9485,7 +9485,7 @@
 									"font": "Arial;13;0",
 									"left": 613,
 									"top": 268.5,
-									"width": 101.05078125,
+									"width": 100,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF114XWw+4rEaE="
@@ -9779,7 +9779,7 @@
 									"font": "Arial;13;0",
 									"left": 316,
 									"top": 692.5,
-									"width": 327.10986328125,
+									"width": 326,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF115XhVfrQLlM="
@@ -9978,7 +9978,7 @@
 									"font": "Arial;13;0",
 									"left": 387.5,
 									"top": 532.5,
-									"width": 171.79541015625,
+									"width": 171,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF11+ZRZxyL874="
@@ -11009,7 +11009,7 @@
 									"font": "Arial;13;0",
 									"left": 791,
 									"top": 372.5,
-									"width": 224.53173828125,
+									"width": 224,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF12IUjHhKF6H4="
@@ -11572,7 +11572,7 @@
 									"font": "Arial;13;0",
 									"left": 977.5,
 									"top": 60.5,
-									"width": 161.67724609375,
+									"width": 161,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF12IXSRhaXUzY="
@@ -12135,7 +12135,7 @@
 									"font": "Arial;13;0",
 									"left": 811.5,
 									"top": 572.5,
-									"width": 246.95166015625,
+									"width": 246,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF12JRygkz+pjk="
@@ -12698,7 +12698,7 @@
 									"font": "Arial;13;0",
 									"left": 196.5,
 									"top": 68.5,
-									"width": 137.12451171875,
+									"width": 136,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF19eIDra+TKmE="
@@ -12897,7 +12897,7 @@
 									"font": "Arial;13;0",
 									"left": 259.5,
 									"top": 180.5,
-									"width": 132.078125,
+									"width": 131,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF19eJzsLMtWyA="
@@ -13365,7 +13365,7 @@
 									"font": "Arial;13;0",
 									"left": 833,
 									"top": 148.5,
-									"width": 236.82080078125,
+									"width": 236,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF19fE00NOi6eE="
@@ -14197,7 +14197,7 @@
 									"font": "Arial;13;0",
 									"left": 993,
 									"top": 684.5,
-									"width": 157.37353515625,
+									"width": 156,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF1+gOmVlH3bOA="
@@ -15129,6 +15129,7 @@
 										"$ref": "AAAAAAF2BcxZtOEFjOo="
 									},
 									"name": "ActivityDiagram1",
+									"documentation": "#Scenarios\n\n#scenarios 1.\n[modification de produit  quand tout va bien] (1,2,3,4,5).\n\nresulat attendu : le maraicher a pu modifiez les produits sans soucis.\n\ncas 1 : donneé valide\n\n\n#scenarios 2.\n[modification de produit quand les donneés non valide] (1,2,3,2,3,2,3.....).\n\nresulat attendu : le maraicher n'a pas pu modifié  , on lui redemande de rentrer des information valide\njusqu'a ce que ces informations soient valide.\n\n#scenarios 3.\n[modification de produit quand les donneé ne sont pas valide a la premiere saisie]. (1,2,3,2,3,4,5).\n\nresultat attendu :  le maraicher a pu modifiez les produits apres avoir revalid les bonnes informations.\n",
 									"ownedViews": [
 										{
 											"_type": "UMLSwimlaneView",
@@ -16070,9 +16071,9 @@
 															"font": "Arial;13;1",
 															"left": 741,
 															"top": 647,
-															"width": 217.45166015625,
+															"width": 228.29345703125,
 															"height": 13,
-															"text": "afficher message modification faite"
+															"text": "5.afficher message modification faite"
 														},
 														{
 															"_type": "LabelView",
@@ -16103,7 +16104,7 @@
 													"font": "Arial;13;0",
 													"left": 736,
 													"top": 640,
-													"width": 227.45166015625,
+													"width": 238.29345703125,
 													"height": 25,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF2BiKzo+ZeW/U="
@@ -16126,7 +16127,7 @@
 											"containerChangeable": true,
 											"left": 736,
 											"top": 640,
-											"width": 227.45166015625,
+											"width": 238.29345703125,
 											"height": 41,
 											"nameCompartment": {
 												"$ref": "AAAAAAF2BiKzo+Zdp8I="
@@ -16153,7 +16154,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 860,
+													"left": 863,
 													"top": 612,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -16174,7 +16175,7 @@
 													},
 													"visible": null,
 													"font": "Arial;13;0",
-													"left": 875,
+													"left": 878,
 													"top": 610,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -16195,7 +16196,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 831,
+													"left": 834,
 													"top": 615,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -16214,7 +16215,7 @@
 												"$ref": "AAAAAAF2Bd25QuOzlew="
 											},
 											"lineStyle": 1,
-											"points": "845:601;848:639",
+											"points": "847:601;851:639",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAF2BiM41+aD3VE="
@@ -16263,7 +16264,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 869,
+													"left": 871,
 													"top": 696,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -16284,8 +16285,8 @@
 													},
 													"visible": null,
 													"font": "Arial;13;0",
-													"left": 884,
-													"top": 694,
+													"left": 886,
+													"top": 695,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 30,
@@ -16305,7 +16306,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 840,
+													"left": 842,
 													"top": 699,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -16324,7 +16325,7 @@
 												"$ref": "AAAAAAF2BiKzo+ZcFeM="
 											},
 											"lineStyle": 1,
-											"points": "852:681;858:727",
+											"points": "856:681;859:727",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAF2BiNqR+aZ4hg="
@@ -16510,7 +16511,7 @@
 											"_parent": {
 												"$ref": "AAAAAAF2Bc03X+GZdag="
 											},
-											"name": "afficher message modification faite"
+											"name": "5.afficher message modification faite"
 										}
 									]
 								}
@@ -16622,6 +16623,7 @@
 										"$ref": "AAAAAAF2Bh39F+V7ejQ="
 									},
 									"name": "ActivityDiagram1",
+									"documentation": "# Scénarios\n\n## Scénario 1\nSans erreur (1-2-3)\n\n1. Cas 1.x : avec une combinaison des données valide\n    - Résultats attendus : Une nouvelle inscription est faite, le message de bonne fin est affiché; un mail de demande de confirmation est envoyé\n \n2. Cas 2.x : avec une combinaison des données valide et limites\n    - Résultats attendus : Une nouvelle inscription est faite, le message de bonne fin est affiché; un mail de demande de confirmation est envoyé\n\n3. Cas 3.x : avec une combinaison des données limites\n    - Résultats attendus : Un nouveau médecin est créé, le message de bonne fin est affiché; un mail de demande de confirmation est envoyé\n  \n## Scénario 2\nAvec des données erronées (1-2-1-2-1...)\n\n1. Cas 1.x : avec une combinaison des données erronées et valides ou limites\n    - Résultats attendus : l'utilisateur doit re rentrer des informations jusqu'a ceux qu'elle soient valide.\n    \n2. Cas 2.x : avec une combinaison des données erronées \n    - Résultats attendus : l'utilisateur doit re rentrer des informations jusqu'a ceux qu'elle soient valide.\n    \n\n   \n## Valeurs valide:\n- nom : \n    - un nom d'entre 2 et max-1 caractères alphabétiques\n    - un nom d'entre 2 et max-1 caractères alphabétiques avec un ou plusieurs caractères \n    \t- espace\n        - apostrophe\n        - tiret\n        - caractères accentués minuscules ou majuscules (à,á,â,ã,ä,å,æ,ç,è,é,ê,ë,ì,í,î,ï,ð,ñ,ò,ó,ô,õ,ö,ø,œ,š,Þ,ù,ú,û,ü,ý,...)\n        - autres carctères spéciaux\n- prénom: idem nom\n- adresse - nomVoie: idem nom\n- adresse - numéro: \n\t- une chaine avec des caractères numériques et aplhabétique \n\n- motDePasse: \n\t- une valeur 6 caractères avec 1 à 5 majuscules et 1 à 5 minuscules    \n    \n## Valeurs imites:\n- nom : \n    - un nom d'un caractère non-alphabétique\n    - un nom d'un maximum de caractères enregsitrables \n- prénom: idem nom\n- adresse - nomVoie: idem nom\n\n\n## Valeurs erronées\n- nom : \n    - un nom d'un caractère espace ou non éditable\n    - un nom vide\n- prénom: idem nom\n- adresse - nomVoie: idem nom\n- adresse - numéro: idem nom\n- adresse - boite: idem adresse numéro.\n\n",
 									"ownedViews": [
 										{
 											"_type": "UMLSwimlaneView",
