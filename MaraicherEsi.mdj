@@ -28301,9 +28301,9 @@
 														"$ref": "AAAAAAF2KaDR0vKMHxM="
 													},
 													"font": "Arial;13;0",
-													"left": 70.97900390625,
+													"left": 66.58642578125,
 													"top": 10,
-													"width": 115.9052734375,
+													"width": 102.791015625,
 													"height": 13,
 													"text": "SequenceDiagram1"
 												},
@@ -28316,7 +28316,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 10,
-													"width": 60.97900390625,
+													"width": 56.58642578125,
 													"height": 13,
 													"text": "interaction"
 												}
@@ -29380,9 +29380,9 @@
 														"$ref": "AAAAAAF2KaDR0/LHw+g="
 													},
 													"font": "Arial;13;0",
-													"left": 56.72998046875,
+													"left": 55.99365234375,
 													"top": 261,
-													"width": 133.2470703125,
+													"width": 122.3037109375,
 													"height": 13,
 													"text": "convaincuOuContinuer"
 												},
@@ -29395,7 +29395,7 @@
 													"font": "Arial;13;1",
 													"left": 37,
 													"top": 261,
-													"width": 14.72998046875,
+													"width": 13.99365234375,
 													"height": 13,
 													"text": "alt"
 												},
@@ -29428,7 +29428,7 @@
 																	"font": "Arial;13;0",
 																	"left": 52,
 																	"top": 294,
-																	"width": 60.70263671875,
+																	"width": 57.7509765625,
 																	"height": 13,
 																	"text": "[continuer]"
 																}
@@ -29461,7 +29461,7 @@
 																	"font": "Arial;13;0",
 																	"left": 52,
 																	"top": 456,
-																	"width": 65.76171875,
+																	"width": 62.080078125,
 																	"height": 13,
 																	"text": "[convaincu]"
 																}
@@ -29515,9 +29515,9 @@
 														"$ref": "AAAAAAF2KaDR0/LPcng="
 													},
 													"font": "Arial;13;0",
-													"left": 155.578125,
+													"left": 154.11181640625,
 													"top": 317,
-													"width": 270.1533203125,
+													"width": 243.06787109375,
 													"height": 13,
 													"text": "tant qu'il continue et ne valide pas ses produits"
 												},
@@ -29530,7 +29530,7 @@
 													"font": "Arial;13;1",
 													"left": 125,
 													"top": 317,
-													"width": 25.578125,
+													"width": 24.11181640625,
 													"height": 13,
 													"text": "loop"
 												},
@@ -32876,9 +32876,9 @@
 														"$ref": "AAAAAAF2OLpf+I6OGxo="
 													},
 													"font": "Arial;13;0",
-													"left": 565,
+													"left": 534,
 													"top": 422,
-													"width": 166.92431640625,
+													"width": 229.79150390625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -32886,7 +32886,7 @@
 														"$ref": "AAAAAAF2OLpf843+tlE="
 													},
 													"edgePosition": 1,
-													"text": "12 : Message1(Produit p)"
+													"text": "12 : addProduitToCommande(Produit p)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -34883,7 +34883,7 @@
 														"$ref": "AAAAAAF2OLpf945ZHYM="
 													},
 													"edgePosition": 1,
-													"text": "29 : Message7"
+													"text": "29 : commandePayer()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -34994,7 +34994,7 @@
 														"$ref": "AAAAAAF2OLpf945ehn4="
 													},
 													"edgePosition": 1,
-													"text": "30 : Message8"
+													"text": "30 : setStatusEnCours()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -35328,7 +35328,7 @@
 														"$ref": "AAAAAAF2OLpf+I5tYGE="
 													},
 													"edgePosition": 1,
-													"text": "33 : Message4(String message)"
+													"text": "33 : encoderMessage(String message)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -35439,7 +35439,7 @@
 														"$ref": "AAAAAAF2OLpf+I5yG2s="
 													},
 													"edgePosition": 1,
-													"text": "34 : Message5(String message)"
+													"text": "34 : encoderMess(String message)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -36024,7 +36024,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2OLpf+Y6vSAs="
 									},
-									"name": "Message1",
+									"name": "addProduitToCommande",
 									"source": {
 										"$ref": "AAAAAAF2OLpf+Y6pTJg="
 									},
@@ -36271,7 +36271,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2OLpf+Y6vSAs="
 									},
-									"name": "Message7",
+									"name": "commandePayer()",
 									"source": {
 										"$ref": "AAAAAAF2OLpf+Y6pTJg="
 									},
@@ -36285,7 +36285,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2OLpf+Y6vSAs="
 									},
-									"name": "Message8",
+									"name": "setStatusEnCours()",
 									"source": {
 										"$ref": "AAAAAAF2OLpf+Y6q7HA="
 									},
@@ -36327,7 +36327,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2OLpf+Y6vSAs="
 									},
-									"name": "Message4",
+									"name": "encoderMessage",
 									"source": {
 										"$ref": "AAAAAAF2OLpf+Y6pTJg="
 									},
@@ -36342,7 +36342,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2OLpf+Y6vSAs="
 									},
-									"name": "Message5",
+									"name": "encoderMess",
 									"source": {
 										"$ref": "AAAAAAF2OLpf+Y6q7HA="
 									},
@@ -36607,9 +36607,9 @@
 																"$ref": "AAAAAAF2OL+2LJSgV2k="
 															},
 															"font": "Arial;13;0",
-															"left": 70.97900390625,
+															"left": 66.58642578125,
 															"top": 13,
-															"width": 152.75341796875,
+															"width": 137.10009765625,
 															"height": 13,
 															"text": "SequenceDiagram UC107"
 														},
@@ -36622,7 +36622,7 @@
 															"font": "Arial;13;1",
 															"left": 5,
 															"top": 13,
-															"width": 60.97900390625,
+															"width": 56.58642578125,
 															"height": 13,
 															"text": "interaction"
 														}
@@ -37559,9 +37559,9 @@
 																"$ref": "AAAAAAF2OL+2L5TUfU8="
 															},
 															"font": "Arial;13;0",
-															"left": 328.72998046875,
+															"left": 327.99365234375,
 															"top": 253,
-															"width": 39.05419921875,
+															"width": 37.8291015625,
 															"height": 13,
 															"text": "IsValid"
 														},
@@ -37574,7 +37574,7 @@
 															"font": "Arial;13;1",
 															"left": 309,
 															"top": 253,
-															"width": 14.72998046875,
+															"width": 13.99365234375,
 															"height": 13,
 															"text": "alt"
 														},
